@@ -7,10 +7,12 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { fadeInUp, staggerContainer, viewportConfig } from "@/lib/motion";
 
 const groups = [
+  { label: "Languages", items: skills.languages, accent: "text-rose-400" },
   { label: "Frontend", items: skills.frontend, accent: "text-blue-400" },
   { label: "Backend", items: skills.backend, accent: "text-emerald-400" },
   { label: "Database", items: skills.database, accent: "text-purple-400" },
-  { label: "Tools & DevOps", items: skills.tools, accent: "text-amber-400" },
+  { label: "Tools & Platforms", items: skills.tools, accent: "text-amber-400" },
+  { label: "Concepts", items: skills.concepts, accent: "text-cyan-400" },
 ];
 
 export function Skills() {
@@ -27,7 +29,7 @@ export function Skills() {
             <SectionHeading label="Skills" title="What I work with" />
           </motion.div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {groups.map((group) => (
               <motion.div
                 key={group.label}
