@@ -105,6 +105,27 @@ export const projects = [
   },
 ];
 
+export const certifications = [
+  {
+    title: "Namaste Node.js",
+    issuer: "NamasteDev",
+    instructor: "Akshay Saini (ex-Uber)",
+    credentialId: "109197F902BE6A3B7CFD699DA6B",
+    topics: [
+      "Node.js internals: V8 engine, event loop, libuv, non-blocking I/O",
+      "Asynchronous programming: callbacks, promises, async/await",
+      "Express.js routing, middleware architecture, REST API design",
+      "JWT & OAuth authentication, MongoDB with Mongoose",
+      "WebSockets, cron jobs, AWS deployment (EC2, Nginx, Amazon SES)",
+      "Razorpay payment integration — production-deployed MERN application",
+    ],
+    stack: ["Node.js", "Express.js", "MongoDB", "JWT", "OAuth", "AWS", "WebSockets"],
+    accent: "from-orange-500/20 to-amber-500/20",
+    accentBorder: "border-orange-500/30",
+    accentText: "text-orange-400",
+  },
+];
+
 export const education = [
   {
     school: "DePaul University",
