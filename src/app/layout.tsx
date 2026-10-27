@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 // Replace with your new portfolio URL after deployment.
-const SITE_URL = "https://portfolio-cg46.onrender.com";
+const SITE_URL = "https://portfolio-rho-five-98iujy9y0y.vercel.app";
 
 const SITE_TITLE = "Krunal Kathiriya | Full-Stack Software Engineer";
 

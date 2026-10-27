@@ -31,7 +31,7 @@ export const DATA = {
   description:
     "Full-Stack Software Engineer– Enthusiastic about creating scalable software solutions, solving business problems, and bringing ideas to market.",
   summary:
-    "I am a Full-Stack Software Engineer with close to 2 years of professional experience building production grade web applications. I've developed enterprise platforms, service marketplaces, corporate websites, and more using React and TypeScript. I am currently studying for my Master's in Computer Science from DePaul University, Chicago while augmenting my knowledge with Node.js, PostgreSQL and System Design. I love working on interesting problems, developing scalable applications and transforming ideas into products.",
+    "Full-Stack Software Engineer I develop production Web apps. Over the last two years I have worked on large enterprise platforms, service marketplaces, and corporate websites. I am currently finishing my Master's in Computer Science at DePaul University and I develop robust, scalable applications on the full stack using modern frontend and backend technologies.",
   avatarUrl: "/me.png",
 
   skills: [
